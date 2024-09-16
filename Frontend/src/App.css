@@ -1,0 +1,157 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav1{
+  display: flex;
+  justify-content: space-around;
+}
+.header-nav2{
+  width:5%;
+}
+.sidebar{
+  color: rgb(95, 93, 93) !important;
+}
+.prof{
+  margin-left: 5px;
+  font-size: 1.3rem;
+}
+.profe:hover{
+  color: rgb(6, 6, 6) !important;
+}
+/* .prof:hover{
+  color: rgb(6, 6, 6);
+} */
+.coll-exg p{
+  font-size: 14px !important;
+}
+.Links{
+  color: rgb(95, 93, 93) !important;
+}
+.Links.active{
+  color:black !important;
+  font-weight: bold;
+}
+.Linkss:hover{
+  color: rgb(6, 6, 6);
+}
+.Linkss.active{
+  font-weight: bold;
+  color:black !important;
+}
+.Links:hover{
+  color: black !important;
+}
+.coll-exg p:hover{
+  color: rgb(8, 8, 8) !important;
+}
+
+.signup-form{
+  width:40%;
+}
+.delete:hover{
+  cursor: pointer;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.rowsidebar {
+  display: flex;
+  height: 100vh;
+}
+.sidebar-container {
+  height: 100%;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
+
+.content-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.header-container, .route-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.full-height {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.confirmation-dialog {
+  width:23rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.confirmation-dialog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirmation-dialog-content p {
+  margin-bottom: 20px;
+}
+
+.confirmation-dialog-content .btn {
+  margin: 5px;
+
+}
+.confirm-p{
+  width:35%;
+}
+
+
+.scrollable-content {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.offcanvas-1{
+  width:300px !important;
+}
+.users-offcanvas div{
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+.users-offcanvas div:hover{
+  background-color: rgb(233, 224, 224);
+}
+.home-card{
+  display: flex;
+}
+.folder{
+  height:8rem;
+  margin:5px;
+  width:8rem;
+  text-align: center;
+  text-decoration: none !important;
+}
+.folder:hover{
+  height:8.2rem;
+  width:8.2rem;
+  cursor: pointer;
+  background-color: #e1dddd;
+}
+.card-text{
+  color: black;
+  text-decoration: none !important;
+}
+.span-tag{
+  color:red;
+}
+/* .link-1{
+color:grey;
+text-decoration: none;
+} */
