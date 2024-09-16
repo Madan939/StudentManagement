@@ -18,7 +18,7 @@ app.use('/api/department',DepartmentRoute);
 app.use('/api/student',StudentRoute);
 app.use('/api/account',AccountRoute);
 app.use('/api/history',HistoryRoute);
-const port=process.env.PORT||8000;
+const port=process.env.PORT||5000;
 app.listen(port,()=>{
     console.log(`server is running in ${port}`);
 })
